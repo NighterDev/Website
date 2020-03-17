@@ -121,9 +121,9 @@ a.white {
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #00c9db;
+	border: 0.125rem solid red;
 	border-radius: 2rem;
-	background-color: #00c9db;
+	background-color: red;
 	color: #fff;
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
@@ -132,16 +132,16 @@ a.white {
 
 .btn-solid-reg:hover {
 	background-color: transparent;
-	color: #00c9db;
+	color: red;
 	text-decoration: none;
 }
 
 .btn-solid-lg {
 	display: inline-block;
 	padding: 1.375rem 2.625rem 1.375rem 2.625rem;
-	border: 0.125rem solid #dc3545;
+	border: 0.125rem solid #ff3333;
 	border-radius: 2rem;
-	background-color: #dc3545;
+	background-color: #ff3333;
 	color: #fff;
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
@@ -150,7 +150,7 @@ a.white {
 
 .btn-solid-lg:hover {
 	background-color: transparent;
-	color: #dc3545;
+	color: #ff3333;
 	text-decoration: none;
 }
 
@@ -168,17 +168,17 @@ a.white {
 .btn-outline-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #00c9db;
+	border: 0.125rem solid red;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #00c9db;
+	color: red;
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-reg:hover {
-	background-color: #00c9db;
+	background-color: red;
 	color: #fff;
 	text-decoration: none;
 }
@@ -186,17 +186,17 @@ a.white {
 .btn-outline-lg {
 	display: inline-block;
 	padding: 1.375rem 2.625rem 1.375rem 2.625rem;
-	border: 0.125rem solid #00c9db;
+	border: 0.125rem solid red;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #00c9db;
+	color: red;
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-lg:hover {
-	background-color: #00c9db;
+	background-color: red;
 	color: #fff;
 	text-decoration: none;
 }
@@ -204,17 +204,17 @@ a.white {
 .btn-outline-sm {
 	display: inline-block;
 	padding: 1rem 1.625rem 0.875rem 1.625rem;
-	border: 0.125rem solid #00c9db;
+	border: 0.125rem solid red;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #00c9db;
+	color: red;
 	font: 700 0.625rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-sm:hover {
-	background-color: #00c9db;
+	background-color: red;
 	color: #fff;
 	text-decoration: none;
 }
@@ -362,9 +362,9 @@ input[type='checkbox'] {
 	display: inline-block;
 	width: 100%;
 	height: 3.125rem;
-	border: 1px solid #00c9db;
+	border: 1px solid red;
 	border-radius: 1.5rem;
-	background-color: #00c9db;
+	background-color: red;
 	color: #fff;
 	font: 700 0.75rem/1.75rem "Montserrat", sans-serif;
 	cursor: pointer;
@@ -373,7 +373,7 @@ input[type='checkbox'] {
 
 .form-control-submit-button:hover {
 	background-color: transparent;
-	color: #00c9db;
+	color: red;
 }
 
 /* Form Success And Error Message Formatting */
@@ -649,7 +649,7 @@ input[type='checkbox'] {
 
 .navbar-custom .navbar-brand.logo-text2 {
 	font: 700 2.375rem/1.5rem "Montserrat", sans-serif;
-	color: #dc3545;
+	color: #ff3333;
     letter-spacing: -0.5px;
     word-spacing: none;
 	text-decoration: none;
@@ -778,7 +778,7 @@ input[type='checkbox'] {
 }
 
 .header #js-rotating {
-	color: #dc3545;
+	color: #ff3333;
 }
 
 .header .p-large {
@@ -795,9 +795,9 @@ input[type='checkbox'] {
 /*     05. Testimonials     */
 /****************************/
 .slider-1 {
-	padding-top: 6.875rem;
-	padding-bottom: 6.375rem;
-	background-color: #dc3545;
+	padding-top: 1rem;
+	padding-bottom: 1.375rem;
+	background-color: #8B0000;
 }
 
 .slider-1 .slider-container {
@@ -858,7 +858,7 @@ input[type='checkbox'] {
 .tabs {
 	padding-top: 6.5rem;
 	padding-bottom: 4.25rem;
-	background-color: #2f2c3d;
+	background-color: #8B0000;
 }
 
 .tabs h2 {
@@ -892,9 +892,9 @@ input[type='checkbox'] {
 
 .tabs .nav-link.active,
 .tabs .nav-link:hover {
-	border-bottom: 0.1875rem solid #00c9db;
+	border-bottom: 0.1875rem solid red;
 	background-color: transparent;
-	color: #00c9db;
+	color: 	#FF6347;
 }
 
 .tabs .nav-link .fas {
@@ -924,7 +924,7 @@ input[type='checkbox'] {
 	width: 3.5rem;
 	height: 3.5rem;
 	border-radius: 50%;
-	background-color: #00c9db;
+	background-color: red;
 	text-align: center;
 	vertical-align: top;
 }
@@ -999,109 +999,6 @@ input[type='checkbox'] {
 }
 
 
-/*********************/
-/*     07. Video     */
-/*********************/
-.basic-1 {
-	padding-top: 6.375rem;
-	padding-bottom: 6.875rem;
-	background: url('../images/video-background.jpg') center center no-repeat;
-	background-size: cover; 
-}
-
-.basic-1 h2 {
-	margin-bottom: 1.125rem;
-	text-align: center;
-}
-
-.basic-1 .p-heading {
-	margin-bottom: 4rem;
-	text-align: center;
-}
-
-.basic-1 .image-container img {
-	border-radius: 0.375rem;
-}
-
-.basic-1 .video-wrapper {
-	position: relative;
-}
-
-/* Video Play Button */
-.basic-1 .video-play-button {
-	position: absolute;
-	z-index: 10;
-	top: 50%;
-	left: 50%;
-	display: block;
-	box-sizing: content-box;
-	width: 2rem;
-	height: 2.75rem;
-	padding: 1.125rem 1.25rem 1.125rem 1.75rem;
-	border-radius: 50%;
-	-webkit-transform: translateX(-50%) translateY(-50%);
-	-ms-transform: translateX(-50%) translateY(-50%);
-	transform: translateX(-50%) translateY(-50%);
-}
-  
-.basic-1 .video-play-button:before {
-	content: "";
-	position: absolute;
-	z-index: 0;
-	top: 50%;
-	left: 50%;
-	display: block;
-	width: 4.75rem;
-	height: 4.75rem;
-	border-radius: 50%;
-	background: #4eaaff;
-	animation: pulse-border 1500ms ease-out infinite;
-	-webkit-transform: translateX(-50%) translateY(-50%);
-	-ms-transform: translateX(-50%) translateY(-50%);
-	transform: translateX(-50%) translateY(-50%);
-}
-  
-.basic-1 .video-play-button:after {
-	content: "";
-	position: absolute;
-	z-index: 1;
-	top: 50%;
-	left: 50%;
-	display: block;
-	width: 4.375rem;
-	height: 4.375rem;
-	border-radius: 50%;
-	background: #4eaaff;
-	transition: all 200ms;
-	-webkit-transform: translateX(-50%) translateY(-50%);
-	-ms-transform: translateX(-50%) translateY(-50%);
-	transform: translateX(-50%) translateY(-50%);
-}
-  
-.basic-1 .video-play-button span {
-	position: relative;
-	display: block;
-	z-index: 3;
-	top: 0.375rem;
-	left: 0.25rem;
-	width: 0;
-	height: 0;
-	border-left: 1.625rem solid #fff;
-	border-top: 1rem solid transparent;
-	border-bottom: 1rem solid transparent;
-}
-  
-@keyframes pulse-border {
-	0% {
-		transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
-		opacity: 1;
-	}
-	100% {
-		transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
-		opacity: 0;
-	}
-}
-/* end of video play button */  
 
 
 /*************************/
@@ -1148,84 +1045,6 @@ input[type='checkbox'] {
 }
 
 
-/**********************************/
-/*     11. Details Lightboxes     */
-/**********************************/
-.lightbox-basic {
-	position: relative;
-	max-width: 46.875rem;
-	margin: 2.5rem auto;
-	padding: 3rem 1rem;
-	border-radius: 0.25rem;
-	background-color: #2f2c3d;
-	text-align: left;
-}
-
-.lightbox-basic img {
-	display: block;
-	margin-right: auto;
-	margin-bottom: 3rem;
-	margin-left: auto;
-}
-
-.lightbox-basic h3 {
-	margin-bottom: 0.625rem;
-}
-
-.lightbox-basic hr {
-	width: 3.75rem;
-	height: 0.125rem;
-	margin-top: 0.125rem;
-	margin-bottom: 1.125rem;
-	margin-left: 0;
-	border: 0;
-	background-color: #00c9db;
-	text-align: left;
-}
-
-.lightbox-basic h4 {
-	margin-top: 1.75rem;
-	margin-bottom: 0.75rem;
-}
-
-.lightbox-basic table {
-	margin-top: 1rem;
-	margin-bottom: 1.5rem;
-}
-
-.lightbox-basic table tr {
-	line-height: 1.75em;
-}
-
-.lightbox-basic table .icon-cell {
-	width: 2rem;
-	padding-right: 0.25rem;
-	color: #00c9db;
-	text-align: center;
-}
-
-.lightbox-basic a.mfp-close.as-button {
-	position: relative;
-	width: auto;
-	height: auto;
-	margin-left: 0.375rem;
-	color: #00c9db;
-	opacity: 1;
-}
-
-.lightbox-basic a.mfp-close.as-button:hover {
-	color: #f1f1f8;
-}
-
-.lightbox-basic button.mfp-close.x-button {
-	position: absolute;
-	top: -0.375rem;
-	right: -0.375rem;
-	width: 2.75rem;
-	height: 2.75rem;
-	color: #f1f1f8;
-}
-
 
 /***************************/
 /*     12. Screenshots     */
@@ -1233,7 +1052,7 @@ input[type='checkbox'] {
 .slider-2 {
 	padding-top: 6.875rem;
 	padding-bottom: 6.875rem;
-	background-color: #2f2c3d;
+	background-color: #212121;
 }
 
 .slider-2 .slider-container {
@@ -1306,7 +1125,7 @@ input[type='checkbox'] {
 .counter {
 	padding-top: 6.5rem;
 	padding-bottom: 5.375rem;
-	background-color: #262431;
+	background-color: #212121;
 	text-align: center;
 }
 
@@ -1326,8 +1145,8 @@ input[type='checkbox'] {
 
 .counter #counter .counter-info {
 	margin-bottom: 0;
-	color: #00c9db;
-	font: 400 0.875rem/1.25rem "Open Sans", sans-serif;
+	color: red;
+	font: 600 0.875rem/1.25rem "Open Sans", sans-serif;
 	vertical-align: middle;
 }
 
@@ -1358,7 +1177,7 @@ input[type='checkbox'] {
 .form .list-unstyled .fab {
 	margin-right: 0.5rem;
 	font-size: 0.875rem;
-	color: #00c9db;
+	color: red;
 }
 
 .form .list-unstyled .fa-phone {
@@ -1383,7 +1202,7 @@ input[type='checkbox'] {
 }
 
 .footer .list-unstyled .fas {
-	color: #00c9db;
+	color: red;
 	font-size: 0.5rem;
 	line-height: 1.375rem;
 }
@@ -1413,7 +1232,7 @@ input[type='checkbox'] {
 }
 
 .footer .fa-stack:hover .fa-stack-2x {
-    color: #00c9db;
+    color: red;
 }
 
 
@@ -1445,7 +1264,7 @@ a.back-to-top {
 	width: 2.625rem;
 	height: 2.625rem;
 	border-radius: 1.875rem;
-	background: #00c9db url("../images/up-arrow.png") no-repeat center 47%;
+	background: red url("../images/up-arrow.png") no-repeat center 47%;
 	background-size: 1.125rem 1.125rem;
 	text-indent: -9999px;
 }
@@ -1499,7 +1318,7 @@ a:hover.back-to-top {
 }
 
 .ex-basic-2 .list-unstyled .fas {
-	color: #00c9db;
+	color: red;
 	font-size: 0.5rem;
 	line-height: 1.375rem;
 }
@@ -1755,7 +1574,7 @@ a:hover.back-to-top {
 	}
 	
 	.navbar-custom .fa-stack-2x {
-		color: #00c9db;
+		color: red;
 		transition: all 0.2s ease;
 	}
 	
@@ -1769,7 +1588,7 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom .fa-stack:hover .fa-stack-1x {
-		color: #00c9db;
+		color: red;
 	}
 	/* end of navigation */
 
@@ -1945,18 +1764,18 @@ a:hover.back-to-top {
 	
 	/* Navigation */
 	.navbar-custom {
-		padding: 2.125rem 5rem 2.125rem 5rem;
+		/padding: 2.125rem 5rem 2.125rem 5rem;
 	}
 
 	.navbar-custom.top-nav-collapse {
-        padding: 0.5rem 5rem 0.5rem 5rem;
+    padding: 0.5rem 5rem 0.5rem 5rem;
 	}
 	/* end of navigation */
 
 	
 	/* General Styles */
 	.p-heading {
-		width: 44%;
+        width: 44%
 	}
 	/* end of general styles */
 
