@@ -642,8 +642,19 @@ input[type='checkbox'] {
 	font: 700 2.375rem/1.5rem "Montserrat", sans-serif;
 	color: #fff;
 	letter-spacing: -0.5px;
+    word-spacing: none;
 	text-decoration: none;
 }
+
+
+.navbar-custom .navbar-brand.logo-text2 {
+	font: 700 2.375rem/1.5rem "Montserrat", sans-serif;
+	color: #dc3545;
+    letter-spacing: -0.5px;
+    word-spacing: none;
+	text-decoration: none;
+}
+
 
 .navbar-custom .navbar-nav {
 	margin-top: 0.75rem;
