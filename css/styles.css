@@ -267,9 +267,9 @@ a.white {
 	padding-top: 1.0625rem;
 	padding-bottom: 0.0625rem;
 	padding-left: 1.3125rem;
-	border: 1px solid #9791ae;
+	border: 1px solid red;
 	border-radius: 0.25rem;
-	background-color: #413d52;
+	background-color: #8B0000;
 	color: #f1f1f8;
 	font: 400 0.875rem/1.875rem "Open Sans", sans-serif;
 	transition: all 0.2s;
@@ -321,9 +321,9 @@ select::-ms-expand {
 	height: 8rem; /* used instead of html rows to normalize height between Chrome and IE/FF */
 	padding-top: 1.25rem;
 	padding-left: 1.3125rem;
-	border: 1px solid #9791ae;
+	border: 1px solid red;
 	border-radius: 0.25rem;
-	background-color: #413d52;
+	background-color: #8B0000;
 	color: #f1f1f8;
 	font: 400 0.875rem/1.75rem "Open Sans", sans-serif;
 	transition: all 0.2s;
@@ -570,7 +570,7 @@ input[type='checkbox'] {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: #2f2c3d;
+	background: #343a40;
 }
 
 .spinner {
@@ -1160,7 +1160,7 @@ input[type='checkbox'] {
 .form {
 	padding-top: 6.25rem;
 	padding-bottom: 5.625rem;
-	background: url('../images/contact-background.jpg') center bottom no-repeat;
+	background: #8B0000;
 	background-size: cover; 
 }
 
@@ -1192,12 +1192,12 @@ input[type='checkbox'] {
 /*     16. Footer     */
 /**********************/
 .footer {
-	padding-top: 5rem;
+	padding-top: 2rem;
 	background-color: #262431;
 }
 
 .footer .footer-col {
-	margin-bottom: 2.25rem;
+	margin-bottom: 2rem;
 }
 
 .footer h4 {
@@ -1243,15 +1243,22 @@ input[type='checkbox'] {
 /*     17. Copyright     */
 /*************************/
 .copyright {
-	padding-top: 1rem;
-	padding-bottom: 0.5rem;
-	background-color: #262431;
-	text-align: center;
+	background-color: #242129;
+    border: 1px solid #343a40;
+    
+    
+	
+
 }
 
 .copyright .p-small {
 	color: #f1f1f8;
-	opacity: 0.6;
+	opacity: 0.5;
+    text-align: center;	
+    height: 0.25rem;
+
+
+
 }
 
 
@@ -1664,14 +1671,6 @@ a:hover.back-to-top {
 	}
 	/* end of features */
 
-
-	/* Video */
-	.basic-1 .image-container {
-		max-width: 53.125rem;
-		margin-right: auto;
-		margin-left: auto;
-	}
-	/* end of video */
 
 
 	/* Details 1 */
